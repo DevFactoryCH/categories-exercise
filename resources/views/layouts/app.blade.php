@@ -7,13 +7,12 @@
 
     <!-- Bootstrap CSS -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
     <title>Base</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="app">
       @yield('content')
     </div>
-    <script href="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
   </body>
 </html>
